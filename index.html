@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Moto</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto&display=swap"
+		rel="stylesheet">
+	<script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+	<!-- Шапка сайта -->
+	<header class="header">
+		<div class="container logo__container">
+			<div class="header__top">
+				<div class="header__nav">
+					<a class="logo" href="#">
+						<img src="../project_moto/img/header/logo.png" alt="logo">
+					</a>
+					<!-- блок навигации -->
+					<div class="header__btn-menu">
+						<span class="icon-menu"></span>
+					</div>
+					<ul class="header__list">
+						<li class="header__list-item"><a href="#">Главная</a></li>
+						<li class="header__list-item"><a href="#">Модели</a></li>
+						<li class="header__list-item"><a href="#">Отзывы</a></li>
+						<li class="header__list-item"><a href="#">Контакты</a></li>
+					</ul>
+					<!-- блок навигации -->
+				</div>
+			</div>
+			<!-- ограничивающий контейнер для флексбокса контента(с офферной конструкцией) -->
+			<div class="header__content-container">
+				<!-- флексбокс нижней части шапки, там где офферная конструкция -->
+				<div class="header__content">
+					<div class="header__text">
+						<div class="header__title">
+							<h1>Расширяй границы <br>возможного</h1>
+						</div>
+						<div class="header__subtitle">
+							<h2>Продажа спортивных мотоциклов<br> от 2020 года</h2>
+						</div>
+					</div>
+					<!-- флексбокс с частью под кнопки с заявкой и видеотчётом -->
+					<div class="header__buttons">
+						<div class="header__btn button button-column">
+							<a href="#">Оставить заявку</a>
+						</div>
+						<!-- флексбокс с частью под видео -->
+						<div class="header__video button-column">
+							<div class="header__video-icon">
+								<img src="../project_moto/img/header/play.png" alt="play.net">
+							</div>
+							<div class="header__video-text">
+								<a href="">Посмотреть <br>видео-отчёт<br> 2020-2021</a>
+							</div>
+						</div>
+					</div>
+					<div class="header__social">
+						<div class="header__social-text">
+							<p class="header__social-subscribe">Подписывайтесь в соцсетях</p>
+						</div>
+						<ul class="header__social-items">
+							<li class="header__social-item social"><a class="vk-link" href="#"></a></li>
+							<li class="header__social-item social"><a class="youtube-link" href="#"></a></li>
+							<li class="header__social-item social"><a class="facebook-link" href="#"></a></li>
+							<li class="header__social-item social"><a class="twitter-link" href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Конец шапки сайта  -->
+	<main>
+		<!-- секция с разделом ознакомления с моделями  -->
+		<section class="about">
+			<div class="container">
+				<div class="about__inner-row">
+					<div class="about__image">
+						<img src="../project_moto/img/about/R1M_S1.jpg" alt="moto.png">
+					</div>
+					<div class="about__content">
+						<div class="about__content-text">
+							<div class="about__content-title title">
+								<p>Ознакомьтесь с моделями<br> нашего магазина</p>
+							</div>
+							<div class="about__content-info text">
+								<p>Спортивный мотоцикл – это сложный и ответственный вид транспорта.
+									Управляя подобной мощью, вы гонитесь за адреналином в крови, за ни с чем ни
+									сравнимым
+									чувством восторга и безмерным удовольствием.</p>
+							</div>
+						</div>
+						<div class="about__button button">
+							<a class="about__button-link" href="#">Смотреть все</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Конец секции с моделями ознакомления 
+		  секция с консультацией  -->
+		<section class="contacts">
+			<div class="container">
+				<div class="contacts__inner">
+					<div class="contacts__content">
+						<div class="contacts__content-title title">
+							<p>Оставьте заявку на<br> бесплатную консультацию</p>
+						</div>
+						<div class="contacts__content-info text">
+							<p>Мы перезвоним вам в<br> ближайшее время</p>
+						</div>
+					</div>
+					<div class="contacts__buttons">
+						<form>
+							<input class="button" type="text" name="number" placeholder="+7(___)___-__-__">
+						</form>
+						<button class="contacts__btn button" type="submit">Отправить заявку</button>
+						<div class="contacts__text">
+							<p>Нажимая кнопку, вы даёте согласие на<br><a href="#">обработку персональных данных</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Конец секции с консультацией 
+		 Отзывы  -->
+		<section class="clients">
+			<div class="container">
+				<div class="clients__inner">
+					<div class="clients__content block">
+						<div class="clients__text">
+							<div class="clients__title title">Что пишут клиенты о нашем мотосалоне</div>
+							<div class="clients__subtitle text">Широкий выбор самых ходовых марок и моделей мотоциклов в
+								крупных городах. Более 70% наших клиентов приходят по личной рекомендации от друзей.
+							</div>
+						</div>
+						<div class="clients__btn button">
+							<a class=" clients__btn-link" href="#">Читать отзывы</a>
+						</div>
+					</div>
+					<div class="clients__image block">
+						<div class="clients__image-content">
+							<div class="clients__image-title">Отзыв</div>
+							<div class="clients__image-subtitle">Мария Савельева</div>
+							<div class="clients__image-client">
+								<p>Очень много мотоциклов,<br> причем, таких...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- Подвал сайта  -->
+	<footer class="footer">
+		<div class="logo__container">
+			<div class="footer__inner">
+				<div class="logo footer__block">
+					<img src="../project_moto/img/header/logo.png" alt="logo.png">
+				</div>
+				<div class="footer__container footer__block">
+					<div class="footer__content">
+						<div class="footer__content-politics content">
+							<a class="footer__content-link" href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="footer__content-approval content">
+							<a class="footer__content-link" href="#">Соглашение на обработку персональных данных</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer_social footer__block">
+					<ul class="footer__social-items">
+						<li class="footer__social-item social"><a class="vk-link" href="#"></a></li>
+						<li class="footer__social-item social"><a class="youtube-link" href="#"></a></li>
+						<li class="footer__social-item social"><a class="facebook-link" href="#"></a></li>
+						<li class="footer__social-item social"><a class="twitter-link" href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
